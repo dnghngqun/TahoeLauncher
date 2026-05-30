@@ -69,6 +69,7 @@ PlasmaCore.Dialog {
 			x = pos.x;
 			y = pos.y;
 			requestActivate();
+			main.searchBar.textField.forceActiveFocus();
 		}
 	}
 

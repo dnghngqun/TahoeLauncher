@@ -31,6 +31,7 @@ import "js/colorType.js" as ColorType
 Item {
 	id: main
 	property bool searching: (searchBar.textField.text != "")
+	property alias searchBar: searchBar
 
 	readonly property color textColor: Kirigami.Theme.textColor
 	readonly property string textFont: Kirigami.Theme.defaultFont//plasmoid.configuration.useSystemFontSettings ? Kirigami.Theme.defaultFont : "SF Pro Text"
